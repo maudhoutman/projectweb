@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('/fonts/roboto-regular.kopie.ttf') format('truetype');
+}
+
+header{
+    background-color: rgb(233,153,2);
+    color:white;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: roboto-regular;
+}
+
+header .current a{
+    color: dimgrey;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+li{
+    padding: 1rem;
+}
+
+
+img.logo{
+    width: 75px;
+    height: 52,5px;
+}
+
+#feed{
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#feed li{
+    background-color: rgb(233,153,2,0.5);
+}
+
+#feed li:hover{
+    background-color: rgb(233,153,2);
+    box-shadow: 5px 5px 10px grey;
+}
+
+img.feedfoto{
+    width: 225px;
+    height: 180px;
+}
+
+li p{
+    font-size: 10px;
+    text-align: center;
+    font-family: roboto-regular;
+}
+
+li p2{
+    font-size: 10px;
+    font-family: roboto-regular;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-family: roboto-regular;
+    font-size: 70px;
+    background-image: url('/images/2044289%20kopie.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-family: roboto-regular;
+    font-size: 20px;
+}
+
+#info p {
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(233,153,2);
+    text-align: center;
+}
+
+.jonny{
+    width: 450px;
+    height: 360px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+
+#jonny p{
+    font-size: 14px;
+    font-family: roboto-regular;
+    margin-top: 40px;
+}
+
+#filter{
+    font-family: roboto-regular;
+    font-weight: 600;
+    color: white;
+}
+
+section{
+    background-color: dimgrey;
+    color: white;
+    padding: 15px;
+    font-family: roboto-regular;
+    font-size: 14px;
+}
